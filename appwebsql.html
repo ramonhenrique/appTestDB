@@ -1,0 +1,18 @@
+<head>
+    <title>appwebsql</title>
+</head>
+
+<body>
+    {{> formTest}}
+</body>
+
+<template name="formTest">
+    <form>
+        <fieldset>
+            <legend>Insira um item no banco</legend>
+            <input type="text" id='texto' required>
+            <input id="incluir" type="button" value="Incluir">
+            <ol id="select"></ol>
+        </fieldset>
+    </form>
+</template>

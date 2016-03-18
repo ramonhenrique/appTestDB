@@ -31,3 +31,22 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+.meteor/local
+.meteor/meteorite
+.idea
+*.tmp
+*.log
+.vscode
+temp/
+webdriver_error*.png
+node_modules
+
+package-stubs.js
+packageMocksSpec.js
+.meteor/versions
+galen/htmlreport-dir
+galen/lib/reset.ignore
+
+npm-debug.log
+eslintlog.html
