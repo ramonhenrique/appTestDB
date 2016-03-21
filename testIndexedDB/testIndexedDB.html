@@ -3,12 +3,18 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+    <h2>testIndexedDB</h2>
+    {{> formTest}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="formTest">
+    <form>
+        <fieldset>
+            <legend>Insira um item no banco</legend>
+            <input type=checkbox id="muitos" name="muitos">incluir muitos cont={{cont}}<br>
+            <input type="text" id='texto' required>
+            <input id="incluir" type="button" value="Incluir">
+            <ol id="select"></ol>
+        </fieldset>
+    </form>
 </template>

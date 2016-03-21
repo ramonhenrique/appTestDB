@@ -8,6 +8,7 @@ meteor-platform
 less
 twbs:bootstrap@3.3.5
 fortawesome:fontawesome
+reactive-var
 
 mobile-experience       # Packages for a great mobile UX
 mongo                   # The database Meteor supports right now
@@ -21,5 +22,3 @@ es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 insecure                # Allow all DB writes from clients (for prototyping)
-
-reactive-var
